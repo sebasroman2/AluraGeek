@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>AluraGeek</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@200;400;500;600;700&family=Press+Start+2P&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+
+    <body>
+        <header class="header">
+            <h1 class="logo">❤️❤️❤️ AluraGeek</h1>
+        </header>
+
+        <main class="main-content">
+            <section class="products-section">
+                <h2>MIS PRODUCTOS:</h2>
+                <div class="product-grid" data-lista><!-- Tarjeta de producto --></div>
+            </section>
+
+            <aside class="form-section">
+                <h2>AGREGAR PRODUCTO:</h2>
+                <form data-formulario>
+                    <input type="text" placeholder="nombre..." class="form-input" data-nombre>
+                    <input type="text" placeholder="precio..." class="form-input" data-precio>
+                    <input type="text" placeholder="imagen..." class="form-input" data-imagen>
+                    <div class="form-buttons">
+                        <button type="submit" class="btn-submit">Enviar</button>
+                        <button type="reset" class="btn-reset">Limpiar</button>
+                    </div>
+                </form>
+            </aside>
+        </main>
+
+        <footer class="footer">
+            <h2>❤️❤️❤️ AluraGeek</h2>
+            <h3>Desarrollado por Juan Sebastian Roman Paz</h3>
+            <p>ALURA LATAM - 2024</p>
+        </footer>
+
+        <script type="module" src="js/mostrarProducto.js"></script>
+        <script type="module" src="js/crearProducto.js"></script>
+        <script type="module" src="js/eliminarProducto.js"></script>
+    </body>
+</html>

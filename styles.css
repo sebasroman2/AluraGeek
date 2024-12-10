@@ -1,0 +1,216 @@
+:root {
+    --texto-titulos: "Press Start 2P", system-ui;
+    --texto-contenido: "IBM Plex Mono", serif;
+    --color-formulario: #03318C;
+    --color-morado: #5300C8;
+    --color-tarjeta: #5D04D9;
+    --color-blanco: #FFFFFF;
+    --color-negro: #000000;
+    --color-gris: #C0C0C0;
+}
+
+/* Estilos básicos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--texto-contenido);
+}
+
+body {
+    background-color: var(--color-blanco);
+    color: var(--color-negro);
+}
+
+h1,
+h2 {
+    font-family: var(--texto-titulos);
+    text-align: center;
+    font-size: 24px;
+}
+
+h2 {
+    padding: 40px;
+}
+
+.header {
+    background-color: var(--color-morado);
+    color: var(--color-blanco);
+    text-align: center;
+    padding: 20px 0;
+    border-bottom: 5px solid var(--color-gris);
+}
+
+.main-content {
+    display: flex;
+    justify-content: center;
+    padding: 60px 40px;
+    gap: 30px;
+}
+
+/* Sección de productos */
+.products-section {
+    flex: 2;
+    background-color: var(--color-blanco);
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 758px;
+}
+
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(165px, 1fr));
+    gap: 5px;
+    padding: 20px;
+    box-shadow: -10px 10px 5px #00000033;
+    max-height: 1000px;
+    overflow-y: scroll;
+}
+
+.product-grid::-webkit-scrollbar {
+    width: 8px;
+}
+
+.product-grid::-webkit-scrollbar-thumb {
+    background-color: var(--color-gris);
+    border-radius: 10px;
+}
+
+.product-card {
+    background-color: var(--color-tarjeta);
+    border: 3px solid var(--color-negro);
+    border-radius: 10px;
+    overflow: hidden;
+    text-align: center;
+    color: var(--color-blanco);
+    box-shadow: 4px 4px 10px #0000004d;
+    width: 100%;
+    max-width: 200px;
+    height: 258px;
+    padding: 5px;
+    margin-bottom: 60px;
+}
+
+.product-image {
+    max-width: 100%;
+    height: 75%;
+    object-fit: cover;
+    border: 3px solid var(--color-negro);
+    border-radius: 5px;
+}
+
+.product-name {
+    font-size: 15px;
+    margin-bottom: 5px;
+    font-weight: 400;
+    text-align: start;
+}
+
+.product-info {
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+}
+
+.product-price {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.delete-button {
+    background-color: transparent;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+}
+
+.delete-button:hover {
+    transform: scale(1.2);
+}
+
+.form-section {
+    flex: 1;
+    background-color: var(--color-blanco);
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 472px;
+}
+
+.form-section h2 {
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.form-input {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 10px;
+    border: 2px solid var(--color-formulario);
+    border-radius: 30px;
+    margin-bottom: 40px;
+}
+
+.form-input::placeholder {
+    color: var(--color-formulario);
+    font-size: 16px;
+}
+
+.form-buttons {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn-submit,
+.btn-reset {
+    width: 49%;
+    padding: 10px 20px;
+    border: none;
+    background-color: var(--color-formulario);
+    font-size: 20px;
+    color: var(--color-blanco);
+    border: 2px solid var(--color-formulario);
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.btn-reset {
+    background-color: var(--color-blanco);
+    color: var(--color-formulario);
+}
+
+.footer {
+    text-align: center;
+    background-color: #4b0082;
+    color: #fff;
+    padding: 64px 0;
+}
+
+.footer h2 {
+    padding: 10px;
+}
+
+.footer h3 {
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.footer p {
+    font-weight: 200;
+    font-size: 16px;
+}
+
+/* Estilos responsivos */
+@media (max-width: 768px) {
+    .main-content {
+        flex-direction: column-reverse;
+        align-items: center;
+        padding: 0;
+    }
+
+    .product-grid {
+        max-height: none;
+        box-shadow: none;
+    }
+}

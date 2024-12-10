@@ -1,0 +1,58 @@
+{
+  "productos": [
+    {
+      "id": "1",
+      "nombre": "Stormtrooper",
+      "precio": "60.00",
+      "imagen": "https://www.estoykuku.cl/cdn/shop/products/htb10nsokfxxxxbixvxxq6xxfxxxj-21c194d7-e40e-4654-9a2f-7840a4c3ef26.jpg"
+    },
+    {
+      "id": "2",
+      "nombre": "Game Boy Classic",
+      "precio": "60.00",
+      "imagen": "https://p.turbosquid.com/ts-thumb/Kp/o2wfBI/al/classic_gameboy_001/png/1664445018/600x600/fit_q87/b3b38718e138479522957847555148c10b951836/classic_gameboy_001.jpg"
+    },
+    {
+      "id": "3",
+      "nombre": "Stormtrooper",
+      "precio": "60.00",
+      "imagen": "https://www.estoykuku.cl/cdn/shop/products/htb10nsokfxxxxbixvxxq6xxfxxxj-21c194d7-e40e-4654-9a2f-7840a4c3ef26.jpg"
+    },
+    {
+      "id": "4",
+      "nombre": "Game Boy Classic",
+      "precio": "60.00",
+      "imagen": "https://p.turbosquid.com/ts-thumb/Kp/o2wfBI/al/classic_gameboy_001/png/1664445018/600x600/fit_q87/b3b38718e138479522957847555148c10b951836/classic_gameboy_001.jpg"
+    },
+    {
+      "id": "5",
+      "nombre": "Stormtrooper",
+      "precio": "60.00",
+      "imagen": "https://www.estoykuku.cl/cdn/shop/products/htb10nsokfxxxxbixvxxq6xxfxxxj-21c194d7-e40e-4654-9a2f-7840a4c3ef26.jpg"
+    },
+    {
+      "id": "6",
+      "nombre": "Game Boy Classic",
+      "precio": "60.00",
+      "imagen": "https://p.turbosquid.com/ts-thumb/Kp/o2wfBI/al/classic_gameboy_001/png/1664445018/600x600/fit_q87/b3b38718e138479522957847555148c10b951836/classic_gameboy_001.jpg"
+    },
+    {
+      "id": "7",
+      "nombre": "Stormtrooper",
+      "precio": "60.00",
+      "imagen": "https://www.estoykuku.cl/cdn/shop/products/htb10nsokfxxxxbixvxxq6xxfxxxj-21c194d7-e40e-4654-9a2f-7840a4c3ef26.jpg"
+    },
+    {
+      "id": "8",
+      "nombre": "Game Boy Classic",
+      "precio": "60.00",
+      "imagen": "https://p.turbosquid.com/ts-thumb/Kp/o2wfBI/al/classic_gameboy_001/png/1664445018/600x600/fit_q87/b3b38718e138479522957847555148c10b951836/classic_gameboy_001.jpg"
+    },
+    {
+      "id": "9",
+      "nombre": "Stormtrooper",
+      "precio": "60.00",
+      "imagen": "https://www.estoykuku.cl/cdn/shop/products/htb10nsokfxxxxbixvxxq6xxfxxxj-21c194d7-e40e-4654-9a2f-7840a4c3ef26.jpg"
+    }
+  ]
+}
